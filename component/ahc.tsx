@@ -73,7 +73,14 @@ export default function DeveloperCredits() {
             {/* Social Links */}
             <div className="flex items-center justify-center gap-4 mb-16">
               <a
-                href="mailto:sunny@example.com"
+                href="mailto:sunnysarje@gmail.com"
+                className="group p-3 border border-neutral-800 hover:border-neutral-600 transition-colors"
+                aria-label="Email"
+              >
+                <Mail className="h-5 w-5 text-neutral-400 group-hover:text-white transition-colors" />
+              </a>
+              <a
+                href="mailto:sunnysarje@gmail.com"
                 className="group p-3 border border-neutral-800 hover:border-neutral-600 transition-colors"
                 aria-label="Email"
               >
